@@ -27,13 +27,6 @@ const HomeScreen = () => {
   return (
     <View>
       <View style={HomeStyle.dropDownView}>
-        <Icon.Button
-          underlayColor={'transparent'}
-          backgroundColor={'transparent'}
-          name="download"
-          size={22}
-          color={'black'}
-        />
         <Dropdown
           data={DropDownData}
           labelField="label"
